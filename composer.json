@@ -1,0 +1,20 @@
+{
+  "name": "erdembircan/url-scanner",
+  "description": "scan urls and report inaccessible ones",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Erdem Bircan",
+      "email": "erdem.erdembircan@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Erdem\\Php\\": "src/"
+    }
+  }
+}
